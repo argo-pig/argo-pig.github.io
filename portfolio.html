@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./resources/styles.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1 class="italic bold name">connor klipsch</h1>
+        </header>
+        <h1 class="italic">portfolio</h1>
+        <section>
+            <div id="navbar"></div>
+            <script src="./resources/navscript.js"></script>
+
+            
+
+            <h3 class="toggle" onclick="toggleSection(this, 'pwnagotchi')">▶ pwnagotchi</h3>
+            <div id="pwnagotchi" class="hidden">
+                <h3>pwnagotchi!</h3>
+                <p>Developed a custom OS image based on Debian GNU/Linux for a pentesting and wireless network auditing tool called pwnagotchi!</p>
+                <p class="italic">Technologies used:</p>
+                <ul>
+                    <li>OS Image Composer</li>
+                    <li>Python</li>
+                </ul>
+                <div>
+                    <div><img src="./resources/pegin:D.gif" alt="gif of a pwnagotchi auditing a network"></div>
+                    <p style="font-size: 0.8em;">Devious little fella, isn't he?</p>
+                </div>
+            </div>
+
+            <h3 class="toggle" onclick="toggleSection(this, 'showdownBreakdown')">▶ showdown-breakdown!</h3>
+            <div id="showdownBreakdown" class="hidden">
+                <h3>showdown breakdown!</h3>
+                <p>Developed a suite of tools to assist a Pokémon Showdown player analyze their team's strengths and weaknesses.</p>
+                <p class="italic">Technologies used:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Matplotlib</li>
+                </ul>
+                <div>
+                    <img src="./resources/team_abilities.png" alt="Pie-chart of a Pokémon Showdown team's ability breakdown.">
+                    <img src="./resources/team_average_stats.png" alt="Bar-chart of a Pokémon Showdown team's stats average.">
+                </div>
+            </div>
+        </section>
+        <div id="footer"></div>
+        <script src="./resources/feetscript.js"></script>
+    </div>
+
+    <script src="./resources/listHider.js"></script>
+</body>
+
+</html>

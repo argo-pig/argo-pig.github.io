@@ -1,0 +1,57 @@
+:root {
+    --background-color: #5E0006;
+    --text-color: #EED9B9;
+    --accent-color: #FF7F0F;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+main img {
+    width: 100%;
+    max-width: 300px;  /* caps the size */
+    height: auto;
+    display: block;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+body .currentPage {
+    color: var(--accent-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+div {
+    margin: 25px;
+}
+
+footer a {
+    color: var(--accent-color);
+}
+
+
+
+nav a, nav a:visited {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    color: #f7c305;
+}
+
+.hidden {
+    display: none;
+}
