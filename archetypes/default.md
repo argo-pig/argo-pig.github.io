@@ -1,5 +1,6 @@
 +++
 date = '{{ .Date }}'
-draft = true
+tags = []
+draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 +++

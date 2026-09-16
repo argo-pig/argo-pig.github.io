@@ -1,3 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://connor.klipsch.net'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Connor Klipsch'
+
+[params]
+  homeText = "Home text"
