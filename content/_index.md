@@ -1,8 +1,9 @@
 +++
-title = "Under Construction"
-date = 2026-09-16
+date = '2026-09-16T17:52:00-04:00'
+tags = []
 draft = false
+title = ''
 +++
 
-# Welcome to My Portfolio!
-This website is currently **under construction**. Please check back soon for updates!
+##Welcome to my portfolio!
+this page is currently **under construction** so check back soon!
