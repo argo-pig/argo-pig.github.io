@@ -1,4 +1,7 @@
-baseURL = 'https://connor.klipsch.net'
+baseURL = 'https://connor.klipsch.net/'
 locale = 'en-us'
 title = 'Connor Klipsch'
+theme = 'risotto'
 
+
+disableKinds = ["RSS"]

@@ -1,9 +1,11 @@
 +++
-date = '2026-09-16T17:52:00-04:00'
-tags = []
+date = '2026-09-17T09:58:44-04:00'
 draft = false
-title = ''
+title = 'Connor Klipsch'
 +++
 
-##Welcome to my portfolio!
-this page is currently **under construction** so check back soon!
+# Under construction
+
+future home of connor portfolio
+
+### check back later
