@@ -2,5 +2,3 @@ baseURL = 'https://connor.klipsch.net'
 locale = 'en-us'
 title = 'Connor Klipsch'
 
-[params]
-  homeText = "Home text"
