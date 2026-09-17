@@ -2,6 +2,21 @@ baseURL = 'https://connor.klipsch.net/'
 locale = 'en-us'
 title = 'Connor Klipsch'
 theme = 'risotto'
+author = 'Connor Klipsch'
+languageCode = 'en'
+DefaultContentLanguage = "en"
 
 
 disableKinds = ["RSS"]
+
+sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 3
+
+[menu]
+    [[menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "/resume/resume"
+        weight = 10
