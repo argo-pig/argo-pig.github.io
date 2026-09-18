@@ -1,7 +1,7 @@
 baseURL = 'https://connor.klipsch.net/'
 locale = 'en-us'
 title = 'Connor Klipsch'
-theme = 'risotto'
+theme = 'risotto-fork'
 author = 'Connor Klipsch'
 languageCode = 'en'
 DefaultContentLanguage = "en"
@@ -19,4 +19,9 @@ pagerSize = 3
         identifier = "resume"
         name = "Resume"
         url = "/resume/resume"
+        weight = 10
+    [[menu.main]]
+        identifier = "attribution"
+        name = "Attribution"
+        url = "/attribution/attribution/"
         weight = 10
