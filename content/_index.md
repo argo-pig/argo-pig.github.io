@@ -6,6 +6,8 @@ title = 'Connor Klipsch'
 
 # Under construction
 
+![pic by maryanne <3](/images/connor.jpg)
+
 future home of connor portfolio
 
 ### check back later
